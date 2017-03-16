@@ -1,0 +1,62 @@
+Paciente: 1		Fecha 29/4/15	- Hora: 12:46     IMPORTANTE --> (a) = "aproximadamente"
+
+Min	Sec	Observaciones
+
+0	00	Conversa
+
+1	51 	Empieza melodia (sin voz)
+
+2	19	Paciente cierra los ojos
+
+2 	34	Empieza melodia de voz
+
+3 	11 	Empieza estribillo
+
+3	44	Acaba estribillo	
+
+4 	22	Vuelta al estribillo
+
+4	57	Acaba la canción
+
+5	04	Paciente abre los ojos
+
+5	30 	Paciente empieza a rememorar cosas de su pasado
+		Paciente se emociona
+		Paciente llora al recordar seres queridos 
+		Paciente se recompone
+
+8	00	Al preguntarle si quiere continuar con la sesión, paciente pide continuar
+
+8	51	Empieza nueva canción (instrumental)
+		Cierra los ojos (el momento exacto no fue recogido)
+
+11	06 	Acaba la canción
+
+11	08	Paciente abre los ojos	
+
+11	27	Paciente habla sobre la película a la cual corresponde la canción precedente (BSO)
+
+13	28	Al preguntarle si querría oir otra responde afirmativamente
+
+13	42	Al proponerle el "Canon de Pachelbel" responde muy positivamente
+		Habla del "Canon de Pachelbel"
+
+14 	41	Empieza la guitarra (base de acordes)
+
+14	58 	Empieza el violín (melodia)
+
+17	10 (a)	Llaman a la puerta pero no entra nadie (distracción)
+
+18	16	Alguien entreabre la puerta de la habitación pero no entra nadie (distracción)
+
+18	17	Acaba la melodia (casi simultáneamente a lo anterior)
+
+18	30	Acaba la canción (base de acordes de guitarra)
+
+18	33	Paciente aplaude	
+		Paciente hace un resumen de cómo se ha sentido durante la sesión
+		Paciente explica que se siente más relajada después de la sesión
+		Conversa sobre los efectos de la música hasta final de grabación.
+
+
+
