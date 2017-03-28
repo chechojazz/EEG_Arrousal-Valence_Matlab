@@ -173,13 +173,11 @@ vline(intervals.s*(h/sr),'r');
 
 %arrousal mean for each interval 
 intervals.arrMean = zeros(length(intervals.s)/2,1);%set array for interval mean
-intervals.arrStd = zeros(length(intervals.s)/2, 1);
 k=1;%interval counter
 for i=1:2:length(intervals.s)
     T1=intervals.s(i);
     T2=intervals.s(i+1);
     intervals.arrMean(k) = mean(Arrs(T1:T2));%store interval mean
-    intervals.arrStd(k) = std(Arrs(T1:T2));
     hline(arrMean(k),T1,T2,'r');%plot interval mean
     k=k+1;
 end
@@ -197,15 +195,13 @@ vline(intervals.s*(h/sr),'r');
 
 
 %valence mean for each interval 
-intervals.valMean = zeros(length(intervals.s)/2, 1);%set array for interval mean
-intervals.valStd = zeros(length(intervals.s)/2, 1);
+valMean = zeros(length(intervals.s)/2, 1);%set array for interval mean
 k=1;%interval counter
 
 for i=1:2:length(intervals.s)
     T1=intervals.s(i);
     T2=intervals.s(i+1);
-    intervals.valMean(k) = mean(Vals(T1:T2));%store interval mean
-    intervals.valStd(k) = std(Vals(T1:T2));
+    valMean(k) = mean(Vals(T1:T2));%store interval mean
     hline(valMean(k),T1,T2,'r');
     k=k+1;
 end

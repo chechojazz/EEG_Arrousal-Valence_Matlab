@@ -44,8 +44,8 @@ for i=1:2:length(intervals.s)
         if flag
             data_out.arrMean(j) = intervals.arrMean((i+1)/2);
             data_out.arrStd(j) = intervals.arrStd((i+1)/2);
-            data_out.valMean(j) = intervals.valMean((i+1)/2);
-            data_out.valStd(j) = intervals.valStd((i+1)/2);          
+            data_out.valMean = intervals.valMean((i+1)/2);
+            data_out.valStd = intervals.valStd((i+1)/2);          
         end
         data_out.class{j} = intervals.class{(i+1)/2};
         
