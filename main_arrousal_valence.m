@@ -180,7 +180,7 @@ for i=1:2:length(intervals.s)
     T2=intervals.s(i+1);
     intervals.arrMean(k) = mean(Arrs(T1:T2));%store interval mean
     intervals.arrStd(k) = std(Arrs(T1:T2));
-    hline(arrMean(k),T1,T2,'r');%plot interval mean
+    hline(intervals.arrMean(k),T1,T2,'r');%plot interval mean
     k=k+1;
 end
 title('Normalized Arousal and Interval Average');
@@ -206,7 +206,7 @@ for i=1:2:length(intervals.s)
     T2=intervals.s(i+1);
     intervals.valMean(k) = mean(Vals(T1:T2));%store interval mean
     intervals.valStd(k) = std(Vals(T1:T2));
-    hline(valMean(k),T1,T2,'r');
+    hline(intervals.valMean(k),T1,T2,'r');
     k=k+1;
 end
 
